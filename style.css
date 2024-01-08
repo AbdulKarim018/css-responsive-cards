@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+
+.cards-container {
+  display: flex;
+  margin: 0 auto;
+  width: 70vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.card .card-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-desc {
+  padding: 8px;
+  font-size: medium;
+}
+
+.card-sub {
+  padding: 8px;
+  font-size: small;
+}
+
+.montserrat {
+  font-family: Montserrat;
+}
+
+i {
+  margin-right: 5px;
+  color: #FFD700;
+}
