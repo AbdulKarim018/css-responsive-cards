@@ -37,6 +37,7 @@ h1 {
   height: 100%;
   background-size: cover;
   background-position: center;
+  cursor: pointer;
   transition: 0.5s;
 }
 
@@ -44,16 +45,23 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .card-desc {
   padding: 8px;
+  cursor: pointer;
   font-size: medium;
 }
 
 .card-sub {
   padding: 8px;
+  cursor: pointer;
   font-size: small;
+}
+
+.card:hover .card-image {
+  transform: scale(1.05);
 }
 
 .montserrat {
